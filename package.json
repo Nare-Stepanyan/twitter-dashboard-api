@@ -1,0 +1,14 @@
+{
+  "name": "twitter-dashboard-api",
+  "version": "1.0.0",
+  "description": "application that interacts with twitter apis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nare_stepanyan@epam.com",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
