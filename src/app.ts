@@ -1,12 +1,13 @@
-import express, { Request, Response } from 'express';
+import dotenv from "dotenv";
+import express from 'express';
+import aboutRouter from "./routes/about-routes";
 
+dotenv.config();
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
-app.get('/about', (req: Request, res: Response) => {
-    res.status(200).json({message: 'This is an application that interacts with twitter apis'});
-});
+app.use("/about", aboutRouter);
 
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);
