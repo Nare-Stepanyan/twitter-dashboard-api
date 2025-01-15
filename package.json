@@ -5,7 +5,10 @@
     "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "nodemon src/app.ts"
+        "dev": "nodemon src/app.ts",
+        "lint": "npx eslint .",
+        "lint-fix": "npx eslint . --fix",
+        "format": "npx prettier . --write"
     },
     "author": "nare_stepanyan@epam.com",
     "license": "ISC",
