@@ -1,1 +1,1 @@
-function sampleService() {};
+function sampleService() {}

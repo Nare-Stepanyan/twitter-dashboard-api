@@ -1,1 +1,1 @@
-function sampleRepository() {};
+function sampleRepository() {}

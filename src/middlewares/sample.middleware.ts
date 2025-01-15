@@ -1,1 +1,1 @@
-function sampleMiddleware() {};
+function sampleMiddleware() {}

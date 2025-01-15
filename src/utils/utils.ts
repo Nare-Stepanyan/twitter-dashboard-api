@@ -1,1 +1,1 @@
-function utils() {};
+function utils() {}
