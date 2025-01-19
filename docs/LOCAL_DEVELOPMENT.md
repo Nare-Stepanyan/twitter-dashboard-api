@@ -1,4 +1,4 @@
-## Running the project locally 
+## Running the project locally
 
 #### Before you run the app locally, make sure to install all the project dependencies:
 
@@ -35,6 +35,3 @@
 ```bash
     npm run format
 ```
-
-
-
