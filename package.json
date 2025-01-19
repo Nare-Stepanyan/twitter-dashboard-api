@@ -5,10 +5,12 @@
     "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "rm -rf dist && npm run build && node build/app.js",
         "dev": "nodemon src/app.ts",
         "lint": "npx eslint .",
         "lint-fix": "npx eslint . --fix",
-        "format": "npx prettier . --write"
+        "format": "npx prettier . --write",
+        "build": "tsc"
     },
     "author": "nare_stepanyan@epam.com",
     "license": "ISC",
