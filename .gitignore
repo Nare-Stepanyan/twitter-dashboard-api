@@ -1,2 +1,16 @@
 /node_modules
 .env
+
+# Webstorm
+.idea
+
+# Vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+
+build
