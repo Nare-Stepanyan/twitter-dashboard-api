@@ -59,3 +59,19 @@
 ```bash
     npm run lint:format
 ```
+
+## Husky configuration
+
+#### The pre-commit hook is configured to run linters (ESLint) and formatting (Prettier) before committing. If any issues are found by the linters or formatting tools, the commit will be aborted.
+
+#### To install Husky and ensure everything is set up properly, run:
+
+```bash
+    npm install --save-dev husky
+```
+
+#### To ensure Husky hooks are correctly set up, run:
+
+```bash
+    npm run prepare
+```
